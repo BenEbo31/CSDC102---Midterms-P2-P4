@@ -1,6 +1,16 @@
 //bro change mo sa addAccounts();
 //  this one -->     "  encodedPINs.push_back(encodeString(pin));  "
 
+//for clearscreennnnnnn hehehehhe
+
+    void clearScreen(){
+        #ifdef _WIN32
+            system("cls");
+        #else
+            system("clear");
+        #endif
+    }
+
 
 //security function
     string encodeString(string plain){
